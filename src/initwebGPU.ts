@@ -18,7 +18,7 @@ async function initwebGPU() {
   const format = context.getPreferredFormat(adapter)
   const size = [canvas.clientHeight * window.devicePixelRatio, canvas.height * window.devicePixelRatio]
 
-  context?.configure({
+  context.configure({
     device,
     format,
     size,
