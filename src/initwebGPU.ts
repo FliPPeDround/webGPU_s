@@ -25,7 +25,7 @@ async function initwebGPU() {
     compositingAlphaMode: 'opaque',
   })
 
-  return { adapter, device, context, format }
+  return { adapter, device, context, format, size }
 }
 
 export {
